@@ -1,5 +1,5 @@
 - ItemSparse.csv - ID(int) + Display_lang(text) + OverallQualityID(int)
-- - OverallQualityID can be 0-5
+  - OverallQualityID can be 0-5
   - 0 = Poor
   - 1 = Common
   - 2 = Uncommon
