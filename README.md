@@ -1,6 +1,6 @@
-ItemSparse.csv - ID + Display_lang
-Item.csv - ID + IconFileDataID
-Icons.csv - IconFileDataID = ID + ModifiedPath
+- ItemSparse.csv - ID(int) + Display_lang(text) + OverallQualityID(int)
+- Item.csv - ID(int) + IconFileDataID(int)
+- Icons.csv - IconFileDataID(int) ~ ID(int) + ModifiedPath(text)
 
 
 **ItemSparse.csv:**
