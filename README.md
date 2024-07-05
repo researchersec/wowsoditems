@@ -1,4 +1,13 @@
 - ItemSparse.csv - ID(int) + Display_lang(text) + OverallQualityID(int)
+- - OverallQualityID can be 0-5
+  - 0 = Poor
+  - 1 = Common
+  - 2 = Uncommon
+  - 3 = Rare
+  - 4 = Epic
+  - 5 = Legendary
+ 
+    
 - Item.csv - ID(int) + IconFileDataID(int)
 - Icons.csv - IconFileDataID(int) ~ ID(int) + ModifiedPath(text)
 
